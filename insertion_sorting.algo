@@ -1,0 +1,27 @@
+PROCEDURE swap(a,b:INTEGER)
+BEGIN
+var index:=a;
+a:=b;
+b:=index;
+END
+VAR 
+tab : ARRAY_OF INTEGER[0]
+total_card:INTEGER
+c:ARRAY_OF INTEGER[total_card]
+
+
+BEGIN
+WHILE (j<=total_card) DO
+    read(c[j])
+    tab.push(c[j])
+FOR i FROM tab.length TO 0 DO
+
+if c<tab[i] DO
+swap(c,tab[i])
+END_FOR.
+
+END_WHILE
+
+END
+
+
